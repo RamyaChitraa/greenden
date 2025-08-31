@@ -41,8 +41,5 @@ Your ideas and improvements are always welcome! 🙌
 The Greeden Project was built with the support of Error Makes Clever Academy 🎓.
 It helped me improve skills in frontend design, responsive layouts, and project structuring.
 
-✨ Thank you for visiting my 🌱 Greeden – Plant Shop Website!
-
-🙏 Thank You
 
 Thank you for visiting my Greeden Plant Shop Website 🌱💚.
