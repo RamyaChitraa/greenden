@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Tailwind CSS cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg id="menuicon" class="w-6 h-6 md:hidden cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="gap-5 text-gray-600 hidden md:flex ">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SideNavbar -->
+    <section id="sideNav" class="bg-green-100 transition-all duration-1000  fixed z-20 top-0 right-0"
+        style="height: 100vh; width: 50%; right: -50%;">
+
+        <div class="text-right p-5">
+            <p id="close-nav" class="cursor-pointer">X</p>
+        </div>
+
+        <ul class=" flex flex-col gap-10 text-gray-600  items-center ">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
+    <!-- Our Products -->
+    <section class="p-5 text-center">
+        <h1 class="font-bold text-3xl text-center pt-10">Our Products</h1>
+
+        <input id="search" class="border border-black w-1/2 mx-auto block p-2 mt-5" placeholder="Find your Choices..." type="text">
+
+        <div id="productContainer" class="grid grid-cols-2 mt-10 gap-5 md:grid-cols-4 ">
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg1.png" alt="">
+                <h1>Rose plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg2.png" alt="">
+                <h1>Snake plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg3.png" alt="">
+                <h1>Pale Rose plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg4.png" alt="">
+                <h1>Lily plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg5.png" alt="">
+                <h1>Lotus plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg6.png" alt="">
+                <h1>Tulip plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg5.png" alt="">
+                <h1>Lotus plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="images/bsimg6.png" alt="">
+                <h1>Tulip plant</h1>
+                <p>$20</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <div class="p-5 bg-green-100 mt-5">
+        <h1 class="font-bold text-2xl">Greenden</h1>
+        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, autem!</p>
+        <p class="mt-3">@ 2021 Greenday.com</p>
+    </div>
+    <script src="product.js"></script>
+</body>
+
+</html>
